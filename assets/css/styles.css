@@ -2,7 +2,7 @@
    VARIABLES CSS (Custom Properties)
    ====================================== */
 :root {
-  --bg-prime: #f60c0c; /* Color principal de fondo para los elementos de la página. Se usa como color base para la mayoría de los contenedores. */
+  --bg-prime: #fff; /* Color principal de fondo para los elementos de la página. Se usa como color base para la mayoría de los contenedores. */
   --color-secundary: #f6f6f6; /* Color secundario, usado para fondos de body, inputs, etc. Más claro que el color principal. */
 }
 
