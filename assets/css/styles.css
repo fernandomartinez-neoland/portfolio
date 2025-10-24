@@ -1,11 +1,13 @@
 /* variables */
 :root {
   --bg-prime: #fff;
+  --color-secundary:#f6f6f6;
 }
 /* etiquetas */
 body {
-  background-color: #f6f6f6;
+  background-color: var( --color-secundary);
   padding: 10px 25px 10px 25px;
+
 }
 
 /* clases */
@@ -21,7 +23,8 @@ body {
   background-color: var(--bg-prime);
   border-radius: 25px;
   padding: 5px 15px 5px 15px;
-  margin: 0 5px 0 5px;
+  border:1px solid black;
+ 
 }
 
 .logo_nav {
@@ -29,6 +32,9 @@ body {
 }
 .anchor_logo {
   padding-top: 0 !important;
+}
+.menu_nav_container{
+    margin-left:10px;
 }
 .menu_nav {
   ul {
@@ -79,5 +85,15 @@ body {
   height: 250px;
   object-fit: cover; /* llena el contenedor sin deformarse */
   object-position: center; /* centra la imagen dentro del marco */
+}
+
+.project_box{
+    border-radius: 10px;
+    border: 2px solid color-mix(in srgb, var(--color-secundary) 90%, black);
+    padding:15px;
+    img{
+        height: 150px;
+    }
+    cursor: pointer;
 }
 /*********************************************/
