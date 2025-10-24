@@ -5,8 +5,11 @@
 /* etiquetas */
 body {
   background-color: #f6f6f6;
+  padding: 10px 25px 10px 25px;
 }
+
 /* clases */
+/*******************NAVBAR******************************/
 .logo_header {
   width: 35px;
 }
@@ -59,5 +62,22 @@ body {
   margin-right: 5px;
 }
 .nav_btn {
-    border-radius:20px !important;
+  border-radius: 20px !important;
 }
+/*************************CONTAINER*********************************/
+.container {
+  padding: 25px !important;
+}
+
+.profile_frame {
+  width: 250px;
+  height: 250px;
+  border-radius: 400px;
+  overflow: hidden;
+}
+.profile_img {
+  height: 250px;
+  object-fit: cover; /* llena el contenedor sin deformarse */
+  object-position: center; /* centra la imagen dentro del marco */
+}
+/*********************************************/
